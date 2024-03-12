@@ -42,7 +42,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px 200px;
+    padding: 15px 200px;
 }
 
 footer {
@@ -77,7 +77,8 @@ h1 {
 
 .s2-content {
     display: flex;
-    justify-content: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
 }
 
 .quote-author {
@@ -112,6 +113,7 @@ footer,
     font-size: 36px;
     font-weight: bolder;
     color: #1F2937;
+    margin-bottom: 50px;
 }
 
 .s3 {
@@ -127,6 +129,7 @@ footer,
     font-size: 36px;
     font-style: italic;
     font-weight: 300;
+    margin-bottom: 18px;
 }
 
 .quote-author {
@@ -151,7 +154,7 @@ footer,
 }
 
 .s2 {
-    padding: 50px 0 100px 0;
+    padding: 50px 300px 100px 300px;
 }
 
 .cta {
@@ -186,4 +189,20 @@ footer,
 
 .top-signup {
     border: 2px solid #3882F6;
+}
+
+.s2-img {
+    height: 150px;
+    width: 150px;
+    border: 4px solid #3882F6;
+    border-radius: 10px;
+}
+
+.s2-element {
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    flex: 0 0 160px;
+    margin: 25px;
+    gap: 12px;
 }
