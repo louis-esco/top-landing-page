@@ -22,3 +22,11 @@ header {
     display: flex;
     align-items: center;
 }
+
+.s2-title {
+    text-align: center;
+}
+
+.s2-content {
+    display: flex;
+}
