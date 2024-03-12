@@ -1,6 +1,11 @@
-ul {
+ul,
+h1,
+h2 {
     margin: 0;
     padding: 0;
+}
+
+ul {
     list-style: none;
 }
 
@@ -11,4 +16,9 @@ header {
 
 .header-links ul {
     display: flex;
+}
+
+.s1 {
+    display: flex;
+    align-items: center;
 }
