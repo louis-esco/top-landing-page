@@ -11,6 +11,16 @@ ul {
     list-style: none;
 }
 
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+header,
+footer,
+.s1 {
+    background-color: #1F2937;
+}
+
 header {
     display: flex;
     justify-content: space-between;
@@ -47,3 +57,5 @@ footer {
     display: flex;
     flex-flow: row-reverse;
 }
+
+.logo {}
