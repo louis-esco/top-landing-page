@@ -44,7 +44,7 @@ header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 15px 300px;
+    padding: 15px 200px;
 }
 
 footer {
@@ -73,15 +73,15 @@ footer,
 
 .s1,
 .s4 {
-    padding: 100px 300px;
+    padding: 100px 200px;
 }
 
 .s3 {
-    padding: 100px 400px;
+    padding: 100px 300px;
 }
 
 .s2 {
-    padding: 50px 400px 100px 400px;
+    padding: 50px 300px 100px 300px;
 }
 
 /* More specific layout */
